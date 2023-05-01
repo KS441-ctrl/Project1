@@ -1,0 +1,106 @@
+.rig-details-heading{
+    text-align: left;
+    font-size: 32px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    margin: 8px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* button:hover {
+    background-color: #3e8e41;
+  } */
+ /* search box */
+ .search-container-Box {
+    display: flex;
+    margin:10px 0px;
+    white-space: nowrap;
+    height: 40px;
+    font-size: 20px;
+}
+
+.search-container-Box input {
+   margin-left: 10px;
+   height: 40px;;
+   max-width: 900px;;
+}
+
+.listbutton{
+  width: 70px;
+}
+  
+.mapbutton{
+  width: 70px;
+
+}
+
+.handbookbutton{
+  width: 100px;
+}
+
+.btn-Container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-container{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background:rgba(0,0,0,0.5);
+  top:75px;
+ 
+ 
+}
+
+.EditRadioBtnEnabbled{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+
+}
+
+.EditRadioBtnEnabbled input{
+    width:20px;
+
+}
+
+.Searchbar{
+  width: 625px;
+
+margin-top: 0px;
+margin-bottom: 40px ;
+padding:0px;
+
+margin:10px 0px;
+white-space: nowrap;
+height: 40px;
+font-size: 20px;
+ 
+}
+
